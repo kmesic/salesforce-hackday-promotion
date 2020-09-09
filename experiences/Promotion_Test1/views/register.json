@@ -1,0 +1,58 @@
+{
+  "appPageId" : "3e68c4ee-e981-4600-a0d1-e747f869585a",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "64fd192a-1b51-4cbc-a36b-5c9f8ca6521a",
+  "label" : "Register",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundColor" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"116539fe-fefc-48a0-bac2-a1ca8441ca99\",\"columns\":[{\"UUID\":\"720ca1bb-18d0-4955-9086-415761487a51\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[],\"padding\":null,\"margin\":null}],\"margin\":null,\"padding\":null}",
+        "sectionHeight" : 300
+      },
+      "componentName" : "community_layout:section",
+      "id" : "116539fe-fefc-48a0-bac2-a1ca8441ca99",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "community_login:communityLogo",
+          "id" : "147fba9e-c904-46db-84fb-a8d5325d2024",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "cancelLinkLabel" : "Already have an account?",
+            "confirmPasswordLabel" : "Confirm Password",
+            "emailLabel" : "Email",
+            "firstnameLabel" : "First Name",
+            "includePasswordField" : true,
+            "lastnameLabel" : "Last Name",
+            "passwordLabel" : "Create Password",
+            "regConfirmUrl" : "./CheckPasswordResetEmail",
+            "submitButtonLabel" : "Sign Up"
+          },
+          "componentName" : "community_login:selfRegister",
+          "id" : "dff1df1f-8026-46b7-b95c-7690451fc05b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "720ca1bb-18d0-4955-9086-415761487a51",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c7e962e0-d364-4e31-acc7-cf88e79f03ba",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "self-register"
+}
