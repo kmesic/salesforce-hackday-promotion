@@ -25,7 +25,7 @@
         }, {
           "componentAttributes" : {
             "bannerBackgroundColor" : "",
-            "bannerPosition" : "top",
+            "bannerPosition" : "bottom",
             "bannerSizePercent" : 40,
             "borderRadius" : 20,
             "haveBanner" : false,
