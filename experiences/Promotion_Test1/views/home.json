@@ -26,7 +26,7 @@
           "componentAttributes" : {
             "bannerBackgroundColor" : "",
             "bannerPosition" : "top",
-            "bannerSizePercent" : 35,
+            "bannerSizePercent" : 40,
             "borderRadius" : 20,
             "haveBanner" : false,
             "iconBackgroundColor" : "rgb(255,255,255)",
